@@ -214,14 +214,14 @@ This skill requires two MCP servers to be connected in your Claude environment.
 
 | Server | Auth Method | Key Capabilities |
 |--------|-------------|-----------------|
-| `financial-datasets` | OAuth | Real-time prices, fundamentals, insider trades, analyst estimates, cash flow statements |
-| `exa` | API Key | Neural web search, domain-filtered news, citation-rich results |
+| [`financial-datasets`](https://www.financialdatasets.ai) | OAuth | Real-time prices, fundamentals, insider trades, analyst estimates, cash flow statements |
+| [`exa`](https://exa.ai/) | API Key | Neural web search, domain-filtered news, citation-rich results |
 
 ### Optional
 
 | Server | Auth Method | Key Capabilities |
 |--------|-------------|-----------------|
-| `lightpanda` | Separate setup | Browser automation for paywalled or JS-rendered sources |
+| [`lightpanda`](https://github.com/lightpanda-io/browser) | Separate setup | Browser automation for paywalled or JS-rendered sources |
 
 ### Configuration Notes
 - `financial-datasets` provides real-time data during market hours; brief delays possible depending on exchange
